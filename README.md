@@ -4,7 +4,7 @@
 
 ##  Overview
 
-This reading will consist of an introduction to the package.json. Followed by a deeper dive into the babel.rc. Finally wrapping everything up with a brief explanation of how Webpack automates and codifies our development processes. 
+This reading will consist of an introduction to the package.json. Followed by a deeper dive into the .babelrc. Finally wrapping everything up with a brief explanation of how Webpack automates and codifies our development processes. 
 
 ## Objectives
 
@@ -96,6 +96,8 @@ JavaScript (or ECMAScript) as a language is being updated faster than ever befor
 `npm install babel-loader babel-preset-es2015 babel-preset-react -S`
 
 Babel will also look for a configuration file called .babelrc  in the path of your project. This will tell babel what options to use, including which presets to use, which is all we’ll need in the file for now.
+
+Let's create this file with `touch .babelrc`
 
 ```
 {
@@ -224,3 +226,5 @@ https://blog.risingstack.com/the-react-way-getting-started-tutorial/
 https://html5hive.org/es6-and-babel-tutorial/
 https://babeljs.io/docs/setup/#installation
 https://webpack.github.io/
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/package-babel-and-webpack'>Package.json, Babel And Webpack</a> on Learn.co and start learning to code for free.</p>
